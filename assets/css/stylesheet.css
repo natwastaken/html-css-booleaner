@@ -56,4 +56,16 @@ h2.main-author-info {
 
 .Photo-gallery {
 
+     margin: 2em 0;
+
+}
+
+.Photo-gallery img {
+
+     max-width: 100%;
+}
+
+.Photo-gallery .caption {
+  font-size: 0.7em;
+  line-height: 1.3em;
 }
