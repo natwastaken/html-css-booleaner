@@ -55,7 +55,7 @@ h2.main-author-info {
 
 
 .Photo-gallery {
-
+  
      margin: 2em 0;
 
 }
@@ -68,4 +68,56 @@ h2.main-author-info {
 .Photo-gallery .caption {
   font-size: 0.7em;
   line-height: 1.3em;
+}
+
+/* content */
+.highlight {
+  background-color: yellow;
+}
+
+.content ul {
+  /* padding: 0 0 0 0.9em; */
+  margin-left: -1.8em;
+}
+
+.content table {
+  text-align: left;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.content thead {
+  background-color: blue;
+  color: white;
+}
+
+.row-odd {
+  background-color: lightblue;
+}
+
+.other-articles-item {
+  width: 20%;
+  height: 200px;
+  margin-bottom: 1em;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.other-articles-item p {
+  padding: 10px;
+}
+
+.other-articles-item a {
+  text-decoration: none;
+  color: white;
+}
+
+#graph{
+  background-image: url(../img/graph.jpg);
+}
+
+#monitor {
+  background-image: url(../img/monitor.jpg);
 }
