@@ -18,7 +18,11 @@ main {
   width: 80%;
    margin: 0 auto;
  }
-
+  
+ li{
+  margin: 1em;
+ }
+ 
 
 .width-30 {
   width: 30%;
